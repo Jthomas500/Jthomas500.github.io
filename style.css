@@ -1,0 +1,94 @@
+body{
+    
+}
+
+#title{
+    border: 5px solid black;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: Helvetica;
+}
+
+.title_image{
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#first_image{
+    margin-top: -50px;
+    margin-left: 25px;
+}
+
+#second_image{
+    margin-left: 1080px;
+    margin-top: -165px;
+}
+
+#num5{
+    background-color: rgb(252, 65, 65);
+}
+
+#num4{
+    background-color: pink;
+}
+
+#num3{
+    background-color: rgb(54, 248, 86);
+}
+
+#num2{
+    background-color: yellow;
+}
+
+#num1{
+    background-color: rgb(7, 126, 206);
+}
+
+.items{
+    display: inline;
+    border: 5px solid black;
+    align-items: center;
+    font-family: Helvetica;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+#nav_bar{
+    display: flex;
+    width: 460px;
+    padding-right: 10px;
+    margin-left: 390px;
+    margin-top: -90px;
+    justify-content: space-evenly;
+}
+
+#num5:hover{
+    opacity: 0.5;
+}
+#num4:hover{
+    opacity: 0.5;
+}
+#num3:hover{
+    opacity: 0.5;
+}
+#num2:hover{
+    opacity: 0.5;
+}
+#num1:hover{
+    opacity: 0.5;
+}
+
+.heading{
+    font-family: Helvetica;
+    text-align: center;
+}
+
+#super_mario{
+    
+}
