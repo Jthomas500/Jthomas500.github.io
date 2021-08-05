@@ -89,6 +89,30 @@ body{
     text-align: center;
 }
 
-#super_mario{
-    
+#mario-image{
+    border: 6px solid red;
+    margin-left: 505px;
+}
+
+#mario-text-box{
+    background:rgb(252, 65, 65);
+    border: 5px solid black;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    width: 900px;
+    margin-left: 160px;
+    margin-top: 10px;
+    justify-content: center;
+    color: white;
+    font-family: arial;
+    line-height: 25px;
+}
+
+#mario-message{
+    flex-wrap: wrap;
+}
+
+#kirby-image{
+    width: 320px;
+    margin-left: 480px;
 }
