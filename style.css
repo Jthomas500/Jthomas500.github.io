@@ -18,6 +18,11 @@ body{
     justify-content: space-evenly;
 }
 
+.game-divider{
+    display: inline;
+    justify-content: center;
+}
+
 #first_image{
     margin-top: -50px;
     margin-left: 25px;
@@ -89,13 +94,7 @@ body{
     text-align: center;
 }
 
-#mario-image{
-    border: 6px solid red;
-    margin-left: 505px;
-}
-
-#mario-text-box{
-    background:rgb(252, 65, 65);
+.text-box{
     border: 5px solid black;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -104,15 +103,47 @@ body{
     margin-top: 10px;
     justify-content: center;
     color: white;
-    font-family: arial;
     line-height: 25px;
+    text-align: center;
 }
 
-#mario-message{
-    flex-wrap: wrap;
+#mario-image{
+    border: 6px solid red;
+    margin-left: 505px;
+}
+
+#mario-text-box{
+    background:rgb(252, 65, 65);
+    border-color: yellow;
+    font-family: arial;
+}
+
+#coin{
+    width: 50px;
+    margin-left: 80px;
+    margin-bottom: 10px;
 }
 
 #kirby-image{
     width: 320px;
     margin-left: 480px;
+    border: 6px solid pink;
+    background-color: yellow;
+}
+
+#kirby-text-box{
+    border-color: rgb(125, 255, 105);
+    background: pink;
+    font-family: helvetica;
+}
+
+#botw-image{
+    border: 6px solid rgb(29, 173, 7);
+    margin-left: 490px;
+}
+
+#zelda-text-box{
+    border: 6px solid rgb(0, 191, 255);
+    background:rgb(29, 173, 7);
+    font-family: helvetica;
 }

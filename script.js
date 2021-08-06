@@ -1,25 +1,18 @@
-let button1 = document.getElementById("num1");
-let button2 = document.getElementById("num2");
-let button3 = document.getElementById("num3");
-let button4 = document.getElementById("num4");
-let button5 = document.getElementById("num5");
+let kirbyImage = document.getElementById("kirby-image");
 
-button1.onclick = function() {
-    //console.log("This button works");
+kirbyImage.onclick = function() {
+    kirbyImage.src = "images/i dont think thats kirby.jpg";
 }
 
-button2.onclick = function() {
-    //console.log("This button works");
-}
 
-button3.onclick = function() {
-    //console.log("This button also works");
-}
+let coinButton = document.getElementById("coin");
+let coinNum = 0;
 
-button4.onclick = function() {
-    //console.log("This button works as well");
-}
-
-button5.onclick = function() {
-    //console.log("This is the final button that should work");
+coinButton.onclick = function() {
+    //console.log("Test Message.")
+    coinNum += 1;
+    let marioDivider = document.getElementById("Mario");
+    let coinCount = document.createElement("h1");
+    coinCount.innerHTML = "Coins: " + coinNum;
+    marioDivider.appendChild(coinCount);
 }
